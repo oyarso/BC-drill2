@@ -3,6 +3,85 @@
     padding: 0;
 }
 
+nav{
+    background-image: url(/assets/img/fondo.jpg);
+    background-size: 500px;
+    width: auto;
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{
+    display: inline-block;
+    color: white;
+    width: 15%;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.title{
+    text-align: center;
+    color: #7D7B80;
+    font-size: 4rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+main{
+    text-align: center;
+}
+
+h2{
+    text-decoration:  overline;
+    margin-bottom: 4%;
+}
+
+img{
+    width: 300px;
+    height: 180px;    
+}
+
+.contendor{
+    width: 100%;
+}
+
+.item{
+    margin: 2%;
+    width: 20%;
+    display: inline-block;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer{
+    background-image: url("../IMG/fondo.jpg");
+    padding:6%;
+    text-align: center;
+    height: 100px;
+}
+
+footer p{
+    color: white;
+    padding:6%;
+}
+
+/*
+    Pantalla Extra Large (>=1200px)
+*/
+
 @media(min-width:1200px){
     .col-xl-12{width: 100%;}
     .col-xl-11{width: 91.66666667%;}
@@ -111,15 +190,4 @@
     .booking{
         display: none;
     }
-}
-
-img{
-    width: 300px;
-    height: 180px;    
-}
-
-.item{
-    margin: 2%;
-    width: 20%;
-    display: inline-block;
 }
