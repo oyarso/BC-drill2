@@ -13,7 +13,7 @@ function tcg(digimon) {
     contenido.innerHTML += `
 
 
-    <div class="item col-xs-12 col-sm-10 col-md-8 col-lg-5">
+    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
     <div class="card col-xs-12" >
         <img class="card-img-top" src="${digimon.img}" alt="Digivolve">
         <div class="card-body">
