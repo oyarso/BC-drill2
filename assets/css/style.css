@@ -4,11 +4,78 @@
 }
 
 nav{
-    background-image: url(/assets/img/fondo.jpg);
     background-size: 500px;
     width: auto;
     height: 100px;
+    background-color: orange; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+
+  
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  
+
+h1 {
+    text-shadow: -3px 0 steelblue, 0 3px steelblue, 3px 0 steelblue, 0 -3px steelblue;
+
+    
+    font-family: sans; color: yellow;
+}
+
 
 ul{
     list-style: none;
@@ -41,10 +108,10 @@ h2{
 }
 
 img{
-    width: 30%; 
+    width: 80%; 
 }
 
-.contendor{
+.contenedor{
     width: 100%;
 }
 
@@ -65,17 +132,6 @@ h4{
     margin-bottom: 1%;
 }
 
-footer{
-    background-image: url("../IMG/fondo.jpg");
-    padding:6%;
-    text-align: center;
-    height: 100px;
-}
-
-footer p{
-    color: white;
-    padding:6%;
-}
 
 /*
     Pantalla Extra Large (>=1200px)
@@ -182,11 +238,14 @@ footer p{
 
         
 }
-@media(max-width:991px){
-    .form{
-        display: none;
-    }
-    .booking{
-        display: none;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
