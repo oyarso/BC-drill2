@@ -4,10 +4,13 @@
 }
 
 nav{
-    background-size: 500px;
-    width: auto;
-    height: 100px;
     background-color: orange; 
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    left:0;
+    right:0;
+    margin:0 auto;
 }
 
 
@@ -38,6 +41,7 @@ nav{
   .container:hover .overlay {
     opacity: 1;
   } 
+
   .text {
     color: white;
     font-size: 20px;
@@ -50,36 +54,9 @@ nav{
     text-align: center;
   }
 
-
-  
-
 h1 {
     text-shadow: -3px 0 steelblue, 0 3px steelblue, 3px 0 steelblue, 0 -3px steelblue;
-
-    
     font-family: sans; color: yellow;
-}
-
-
-ul{
-    list-style: none;
-}
-
-
-li{
-    display: inline-block;
-    color: white;
-    width: 15%;
-    margin-left: 80px;
-    margin-top: 80px;
-}
-
-.title{
-    text-align: center;
-    color: #7D7B80;
-    font-size: 4rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
 
 main{
@@ -105,15 +82,15 @@ img{
     display: inline-block;
 }
 
-h5{
-    text-transform: uppercase;
-}
-
 h4{
     text-align: center;
     color: white;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+p{
+    text-decoration: overline;
 }
 
 
@@ -222,14 +199,4 @@ h4{
 
         
 }
-
-
-
-
-
-
-
-
-
-
 
