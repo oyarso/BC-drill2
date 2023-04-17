@@ -11,17 +11,6 @@ nav{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .container {
     position: relative;
     width: 100%;
@@ -48,12 +37,7 @@ nav{
   
   .container:hover .overlay {
     opacity: 1;
-  }
-
-
-  
-
-  
+  } 
   .text {
     color: white;
     font-size: 20px;
