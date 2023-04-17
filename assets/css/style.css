@@ -8,17 +8,19 @@ nav{
     z-index: 10000;
     position: fixed;
     width: 100%;
-    left:0;
-    right:0;
-    margin:0 auto;
+    
 }
 
 
 .container {
     position: relative;
     width: 100%;
+    padding-top: 40px;
   }
   
+  footer{
+    text-align: center;
+  }
   .image {
     display: block;
     width: 100%;
