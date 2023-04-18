@@ -9,13 +9,18 @@ fetch('https://digimon-api.vercel.app/api/digimon')
     })
 
 
-    function mOver(obj) {
-        obj.innerHTML = "Digital Monster"
-      }
-      
-      function mOut(obj) {
-        obj.innerHTML = "Digimon"
-      }
+
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+  document.getElementById("demo").innerHTML = "Digimon";
+}
+
+function mouseOut() {
+  document.getElementById("demo").innerHTML = "Digital Monster";
+}
+
 
     function Alerta(){
         alert ("¡Bienvenido al Digimundo!");
