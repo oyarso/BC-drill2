@@ -1,37 +1,40 @@
 fetch('https://digimon-api.vercel.app/api/digimon')
-    .then(response => response.json())
-    .then(datos => {
-        console.log(datos);
-        console.log(datos)
-        for (let temp of datos) {
-            tcg(temp);
-        }
-    })
+  .then(response => response.json())
+  .then(datos => {
+    console.log(datos);
+    console.log(datos)
+    for (let temp of datos) {
+      tcg(temp);
+    }
+  })
 
 
 
-document.getElementById("digital").onmouseover = function() {mouseOver()};
-document.getElementById("digital").onmouseout = function() {mouseOut()};
+document.getElementById("digital").onmouseover = function () { mouseOver() };
+
+document.getElementById("digital").onmouseout = function () { mouseOut() };
 
 function mouseOver() {
-  document.getElementById("digital").innerHTML = "Digimon";
-}
-
-function mouseOut() {
   document.getElementById("digital").innerHTML = "Digital Monster";
 }
 
+function mouseOut() {
+  document.getElementById("digital").innerHTML = "Digimon";
+}
 
-    function Alerta(){
-        alert ("¡Bienvenido al Digimundo!");
-    
-    }
+
+function Alerta() {
+  alert("¡Bienvenido al Digimundo!");
+
+}
+
+
 
 function tcg(digimon) {
-    
-    let contenido = document.getElementById('contenido');
 
-    contenido.innerHTML += `
+  let contenido = document.getElementById('contenido');
+
+  contenido.innerHTML += `
 
     <div class="card item col-xs-8 col-sm-6 col-md-4 col-lg-3">
       <div class="container">
