@@ -10,15 +10,15 @@ fetch('https://digimon-api.vercel.app/api/digimon')
 
 
 
-document.getElementById("demo").onmouseover = function() {mouseOver()};
-document.getElementById("demo").onmouseout = function() {mouseOut()};
+document.getElementById("digital").onmouseover = function() {mouseOver()};
+document.getElementById("digital").onmouseout = function() {mouseOut()};
 
 function mouseOver() {
-  document.getElementById("demo").innerHTML = "Digimon";
+  document.getElementById("digital").innerHTML = "Digimon";
 }
 
 function mouseOut() {
-  document.getElementById("demo").innerHTML = "Digital Monster";
+  document.getElementById("digital").innerHTML = "Digital Monster";
 }
 
 
